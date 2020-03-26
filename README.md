@@ -1,2 +1,3 @@
-### VB_Calculator
-### Simple calculator using VB.NET
+### The basics of VB.NET
+#### Simple Calculator App
+#### Day Action App with DayPicker
