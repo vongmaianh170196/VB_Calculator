@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ContactsList", "ContactsList.vbproj", "{B5D62BBF-E28E-4A8D-A530-86244F5B6F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D62BBF-E28E-4A8D-A530-86244F5B6F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D62BBF-E28E-4A8D-A530-86244F5B6F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D62BBF-E28E-4A8D-A530-86244F5B6F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D62BBF-E28E-4A8D-A530-86244F5B6F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6177CC6B-84C2-4E4F-874E-FED0A282212B}
+	EndGlobalSection
+EndGlobal
