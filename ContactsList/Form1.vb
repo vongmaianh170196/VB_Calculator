@@ -90,8 +90,9 @@
         txtLastname.Text = selectedCont.Lastname
         txtEmail.Text = selectedCont.Email
         For Each item In optPosition.Items
-            If selectedCont.Position = item.ToString() Then
+            If item.ToString().ToLower().Contains(selectedCont.Position.ToLower()) Then
                 optPosition.SelectedItem = item
+                Exit For
             Else
                 optPosition.SelectedIndex = 0
             End If
@@ -99,6 +100,7 @@
     End Sub
 
     Private Sub contactList_SelectedIndexChanged(sender As Object, e As EventArgs) Handles contactList.SelectedIndexChanged
+
         DisplayContact(CType(contacts(contactList.SelectedIndex), Contact))
     End Sub
 End Class
